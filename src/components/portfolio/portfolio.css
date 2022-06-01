@@ -1,0 +1,40 @@
+.portfolio__container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+}
+
+.port_item {
+    flex-basis: 30%;
+    border: 1px solid transparent;
+    border-radius: 1rem;
+    padding: 1rem;
+    background: var(--color-bg-variant);
+    transition: var(--transition);
+}
+
+.port_item:hover {
+    background: var(--color-bg);
+    border-color: var(--color-primary);
+}
+
+.port_image {
+    margin-bottom: 1rem;
+}
+
+.port_image img {
+    border-radius: 1rem;
+    border: 1px solid black;
+}
+
+
+.port_item_content h4 {
+    font-size: 1.2rem;
+}
+
+.port_link {
+    margin-top: 1rem;
+    display: flex;
+    gap: 1rem;
+}
