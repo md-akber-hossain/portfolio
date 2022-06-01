@@ -1,0 +1,30 @@
+.footer__container {
+    text-align: center;
+    padding: 2rem 0 7rem 0;
+    background: var(--color-bg-variant);
+    opacity: 0.9;
+}
+
+.permalink {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    padding: 1rem 0;
+}
+
+.permalink a {
+    font-size: 0.8rem;
+}
+
+.socials_link {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    padding: 1rem 0;
+}
+
+@media screen and (max-width: 600px) {
+    .permalink {
+        flex-direction: column;
+    }
+}

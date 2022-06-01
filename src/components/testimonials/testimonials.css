@@ -1,0 +1,38 @@
+
+
+.test_items {
+    background: var(--color-bg-variant);
+    border: 1px solid transparent;
+    border-radius: 4rem;
+    transition: var(--transition);
+}
+
+.test_items:hover {
+    border: 1px solid var(--color-primary);
+    background: transparent;
+}
+
+.test_item {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 2rem;
+    padding: 2rem 1rem;
+    width: 60%;
+    margin: 0 auto;
+}
+
+.test_img {
+    display: flex;
+    justify-content: center;
+}
+
+.test_img img {
+    width: 10rem;
+    border-radius: 50%;
+}
+
+.test_content p {
+    font-size: 0.9rem;
+    color: var(--color-light);
+}
